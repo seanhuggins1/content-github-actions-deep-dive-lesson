@@ -48,7 +48,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Create release
+      - name: Create a release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.github_token }}
