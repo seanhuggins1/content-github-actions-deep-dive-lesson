@@ -1,7 +1,7 @@
 import unittest
 
 def uppercase(text):
-  text.upper()
+  return text.upper()
 
 class Test(unittest.TestCase):
 
